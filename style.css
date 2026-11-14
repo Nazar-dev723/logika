@@ -364,3 +364,13 @@ form button {
     display: block;
     margin: 20px auto 0;
 }
+
+/* Центрування заголовка на сторінці доставки */
+.delivery header {
+    text-align: center;
+}
+
+.delivery h1 {
+    text-align: center;
+    margin: 0 auto;
+}
