@@ -6,13 +6,39 @@
     <title>Замовлення — TREND-sports</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="site-images.css">
+    <style>
+        .delivery .stars,
+        .delivery .star,
+        .delivery .rating-stars {
+            display: none !important;
+        }
+
+        .delivery-image-wrap {
+            position: relative;
+            display: inline-block;
+        }
+
+        .delivery-image-wrap::after {
+            content: "";
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            width: 52px;
+            height: 52px;
+            background: rgba(255, 255, 255, 0.97);
+            border-radius: 12px;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04);
+        }
+    </style>
 </head>
 <body class="delivery">
     <header>
         <h1 class="tysm">Замовити товар</h1>
     </header>
     <main class="delivery-main">
-        <img class="delivery-image" src="./зображення_viber_2026-11-14_17-54-08-247.png" alt="Спортивний товар з каталогу">
+        <div class="delivery-image-wrap">
+            <img class="delivery-image" src="./зображення_viber_2026-11-14_17-54-08-247.png" alt="Спортивний товар з каталогу">
+        </div>
         <form action="submit_order.php" method="POST">
             <label for="name">Ім'я:</label>
             <input type="text" id="name" name="name" required>
