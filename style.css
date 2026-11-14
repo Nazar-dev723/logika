@@ -370,7 +370,10 @@ form button {
     text-align: center;
 }
 
-.delivery h1 {
+.delivery h1,
+.delivery .tysm {
     text-align: center;
     margin: 0 auto;
+    display: block;
+    width: 100%;
 }
