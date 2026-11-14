@@ -157,43 +157,37 @@ body {
     color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 5px;
-    
 }
 .main-page {
-    
-    
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 .main-page header {
-   padding-top: 20px;
-   
-   width: 100%;
-   z-index: -1;
-   text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    z-index: -1;
+    text-align: center;
 }
-.tysm{
+.tysm {
     color: rgb(0, 0, 0);
     font-size: 36px;
 }
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 input {
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 40%;
+    width: 50%;
     padding-bottom: 20px;
 }
 form button {
-    
     font-size: 25px;
     background-color: #28a745;
     color: white;
@@ -203,7 +197,6 @@ form button {
     padding: 20px 50px;
 }
 @media screen and (min-width: 1025px) {
-
     .rating-page .stars span {
         font-size: 50px;
     }
@@ -227,12 +220,10 @@ form button {
     }
 
     input {
-        width: 40%;
+        width: 50%;
     }
-
 }
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-
     .rating-page .stars span {
         font-size: 42px;
     }
@@ -280,10 +271,8 @@ form button {
         font-size: 21px;
         padding: 16px 35px;
     }
-
 }
 @media screen and (max-width: 600px) {
-
     .rating-page .stars {
         gap: 8px;
     }
@@ -357,7 +346,6 @@ form button {
         font-size: 18px;
         padding: 14px 30px;
     }
-
 }
 
 /* Прибираємо зображення з головної сторінки. */
