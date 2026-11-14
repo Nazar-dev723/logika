@@ -1,7 +1,7 @@
 
 /* =========================
    СПІЛЬНІ НАЛАШТУВАННЯ
-========================= */
+ ========================= */
 
 * {
     box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
 
 /* =========================
    ПЕРША СТОРІНКА - ОЦІНКА
-========================= */
+ ========================= */
 
 .rating-page {
     min-height: 100vh;
@@ -26,7 +26,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url("images/зображення_viber_2026-11-14_17-54-07-123.jpg");
+    background-image: none;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -85,7 +85,7 @@ body {
 
 /* =========================
    ДРУГА СТОРІНКА - ТОВАРИ
-========================= */
+ ========================= */
 
 .shop-page main {
     display: flex;
@@ -138,7 +138,7 @@ body {
 
 /* =========================
    АДАПТАЦІЯ ДЛЯ ТЕЛЕФОНІВ
-========================= */
+ ========================= */
 
 @media (max-width: 600px) {
     .rating-page .stars span {
@@ -157,11 +157,11 @@ body {
     color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 5px;
-   
+    
 }
 .main-page {
     
-   
+    
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -193,7 +193,7 @@ input {
     padding-bottom: 20px;
 }
 form button {
-   
+    
     font-size: 25px;
     background-color: #28a745;
     color: white;
