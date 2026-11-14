@@ -359,3 +359,8 @@ form button {
     }
 
 }
+
+/* Прибираємо зображення з головної сторінки. */
+.main-page .home-image {
+    display: none;
+}
