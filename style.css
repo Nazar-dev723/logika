@@ -195,6 +195,8 @@ form button {
     border-radius: 4px;
     cursor: pointer;
     padding: 20px 50px;
+    display: block;
+    margin: 20px auto 0;
 }
 @media screen and (min-width: 1025px) {
     .rating-page .stars span {
@@ -351,4 +353,14 @@ form button {
 /* Прибираємо зображення з головної сторінки. */
 .main-page .home-image {
     display: none;
+}
+
+/* Центрування кнопки "Замовити" на сторінці доставки */
+.delivery-main form {
+    width: min(100%, 560px);
+}
+
+.delivery-main form button {
+    display: block;
+    margin: 20px auto 0;
 }
