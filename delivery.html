@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>delivery</title>
+    <title>Замовлення — TREND-sports</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="delivery">
     <header>
-
+        <h1 class="tysm">Замовити товар</h1>
     </header>
-    <main>
+    <main class="delivery-main">
+        <img class="delivery-image" src="./зображення_viber_2026-11-14_17-54-08-247.png" alt="Спортивний товар з каталогу">
         <form action="submit_order.php" method="POST">
             <label for="name">Ім'я:</label>
-            <input type="text" id="name" name="name" required><br><br>
+            <input type="text" id="name" name="name" required>
 
             <label for="address">Адреса доставки:</label>
-            <input type="text" id="address" name="address" required><br><br>
+            <input type="text" id="address" name="address" required>
 
             <label for="phone">Телефон:</label>
-            <input type="tel" id="phone" name="phone" required><br><br>
+            <input type="tel" id="phone" name="phone" required>
 
-            <button type="submit">Замовити</button> 
+            <button type="submit">Замовити</button>
         </form>
-        </main>
+    </main>
 </body>
 </html>
